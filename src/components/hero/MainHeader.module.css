@@ -1,0 +1,26 @@
+.header {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
