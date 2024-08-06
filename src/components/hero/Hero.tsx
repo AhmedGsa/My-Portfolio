@@ -3,6 +3,7 @@ import HeroHeader from "./HeroHeader";
 import classes from "./Hero.module.css";
 import Button from "../common/Button";
 import { FaArrowRight } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -14,7 +15,9 @@ export default function Hero() {
             </p>
             <Button href="#about">My Projects <FaArrowRight /></Button>
         </div>
-        <div className={classes.asset}></div>
+        <div className={classes.asset}>
+            <Image src="/images/yellow-circle.png" alt="Hero Image" width={500} height={500} />
+        </div>
     </section>
   );
 }
