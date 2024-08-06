@@ -9,6 +9,7 @@
   --black-color: #18181B;
   --white-color: #FFFFFF;
   --button-hover-color: #533CB3;
+  --secondary-text-color: #CDCDCD;
 }
 
 * {
@@ -18,16 +19,6 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: var(--white-color);
-}
-
-button {
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
 }
 
 html,
@@ -40,6 +31,10 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: var(--secondary-color);
   padding: 0 200px;
+}
+
+main {
+  padding-top: 6.7rem;
 }
 
 a {
@@ -57,11 +52,15 @@ a {
 }
 
 .cta {
+  width: fit-content;
   font-size: 1.2rem;
   background-color: var(--primary-color);
   padding: 1rem 2rem;
   border-radius: var(--border-radius);
   transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .cta:hover {

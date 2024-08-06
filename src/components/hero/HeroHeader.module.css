@@ -1,0 +1,36 @@
+.hero-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.service-slider {
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    border-radius: 3rem;
+    display: flex;
+}
+
+.service-text-content {
+    display: flex;
+    animation: scrollText 10s linear infinite;
+}
+
+.service-text-slide {
+    padding-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-70%);
+    }
+}
