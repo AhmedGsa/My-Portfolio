@@ -8,6 +8,7 @@
   --secondary-color: #191D28;
   --black-color: #18181B;
   --white-color: #FFFFFF;
+  --gray-color: #767676;
   --button-hover-color: #533CB3;
   --secondary-text-color: #CDCDCD;
 }
@@ -30,6 +31,9 @@ body {
 body {
   color: rgb(var(--foreground-rgb));
   background-color: var(--secondary-color);
+}
+
+section {
   padding: 0 200px;
 }
 

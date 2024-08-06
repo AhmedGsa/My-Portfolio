@@ -1,0 +1,79 @@
+.container {
+    background-color: #F8F6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 200px;
+}
+
+.container h1 {
+    color: var(--black-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.container p {
+    color: var(--gray-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2rem 0;
+}
+
+.service {
+    background-color: var(--white-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.service h3 {
+    color: var(--black-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.service .icon {
+    font-size: 2rem;
+    fill: var(--primary-color);
+}
+
+.service p, .service .icon, .service h3 {
+    transition: var(--transition);
+    z-index: 1;
+}
+
+.service .fill {
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transition: var(--transition);
+}
+
+.service:hover .fill {
+    transition: var(--transition);
+    height: 100%;
+}
+
+.service:hover p, .service:hover .icon, .service:hover h3 {
+    color: var(--white-color);
+    fill: white;
+}

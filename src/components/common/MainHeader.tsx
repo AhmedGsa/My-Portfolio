@@ -8,8 +8,8 @@ export default function MainHeader() {
         <nav className={classes.nav}>
             <ul>
                 <NavLink href='/#hero'>Home</NavLink>
-                <NavLink href='/#about-me'>About Me</NavLink>
                 <NavLink href='/#services'>Services</NavLink>
+                <NavLink href='/#about-me'>About Me</NavLink>
                 <NavLink href='/#projects'>Projects</NavLink>
                 <NavLink href='/#contact'>Contact</NavLink>
             </ul>
