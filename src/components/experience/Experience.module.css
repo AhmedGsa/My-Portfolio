@@ -1,0 +1,45 @@
+.container {
+    background: linear-gradient(90deg, #EADAF5 0%, #DEC6F1 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 200px;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.container p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--gray-color);
+    text-align: center;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.job {
+    display: flex;
+    gap: 2rem;
+}
+
+.job h2 {
+    min-width: 15rem;
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.job .right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
