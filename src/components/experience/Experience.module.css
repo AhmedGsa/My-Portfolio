@@ -40,6 +40,16 @@
 
 .job .right {
     display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.job .right img {
+    object-fit: cover;
+}
+
+.job .info {
+    display: flex;
     flex-direction: column;
     gap: 1rem;
 }
