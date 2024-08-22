@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 200px;
+    background-color: var(--white-color);
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.container p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--gray-color);
+    text-align: center;
+}
+
+.technologies {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.technology {
+    background-color: #F3F4F6;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.technology img {
+    width: 50px;
+    height: 50px;
+}   

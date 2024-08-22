@@ -9,7 +9,7 @@ export default function Projects() {
         <div className={classes.projects}>
             <Project href='https://www.khedamni.com' title='Khedamni' description='description' image='/images/khedamni1.jpeg' />
             <Project href='https://www.khedamni.com' title='Khedamni' description='description' image='/images/khedamni.jpeg' />
-            <Project href='https://www.khedamni.com' title='Khedamni' description='description' image='/images/khedamni.jpeg' />
+            <Project href='https://www.khedamni.com' title='Darckoum' description='description' image='/images/darckoum.jpeg' />
         </div>
         
     </section>
