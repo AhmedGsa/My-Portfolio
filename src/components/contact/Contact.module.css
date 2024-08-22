@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 100px;
+    background-color: var(--secondary-color);
+}
+
+.shape {
+    margin-top: 50px;
+    position: relative;
+}
+
+.shape .overlay {
+    width: 100%;
+    padding-left: 120px;
+    width: 1358px;
+    min-height: 657px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.shape h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--white-color);
+    max-width: 500px;
+}
+
+.shape p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white-color);
+    max-width: 500px;
+    word-spacing: 2px;
+}
+
+.shape form {
+    position: absolute;
+    right: 100px;
+    top: -50px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 40%;
+    padding: 3rem;
+}
+
+.shape form input, .shape form textarea {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--white-color);
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.shape form input::placeholder, .shape form textarea::placeholder {
+    color: var(--gray-color);
+}
+
+.shape form input:focus, .shape form textarea:focus {
+    border-color: var(--black-color);
+}
+
+.shape form button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.shape form button:hover {
+    background-color: var(--button-hover-color);
+}
