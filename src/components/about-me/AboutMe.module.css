@@ -51,3 +51,23 @@
     fill: var(--primary-color);
     transition: 0.4s;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 4rem 20px;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .asset {
+        display: none;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+    }
+    
+}
