@@ -15,9 +15,7 @@ export default function Hero() {
             </p>
             <Button href="#about">My Projects <FaArrowRight /></Button>
         </div>
-        <div className={classes.asset}>
-            <Image src="/images/yellow-circle.png" alt="Hero Image" width={500} height={500} />
-        </div>
+          <Image className={classes.asset} src="/images/yellow-circle.png" alt="Hero Image" width={500} height={500} />
     </section>
   );
 }
