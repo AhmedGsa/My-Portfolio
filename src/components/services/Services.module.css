@@ -77,3 +77,22 @@
     color: var(--white-color);
     fill: white;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 4rem 20px;
+    }
+
+    .services {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .service h3 {
+        font-size: 1.2rem;
+    }
+
+    .service p {
+        font-size: 1rem;
+    }
+    
+}
