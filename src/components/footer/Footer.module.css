@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 2rem 200px;
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-icon {
+    scale: 1.2;
+    font-size: 2.6rem;
+    fill: var(--secondary-color);
+    background-color: var(--white-color);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.social-icon:hover {
+    background-color: var(--primary-color);
+    fill: var(--white-color);
+    transition: 0.4s;
+}
