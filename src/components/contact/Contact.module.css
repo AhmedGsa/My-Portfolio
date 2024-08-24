@@ -88,3 +88,42 @@
 .shape form button:hover {
     background-color: var(--button-hover-color);
 }
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 4rem 20px;
+    }
+
+    .shape {
+        background-color: var(--primary-color);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .shape .overlay {
+        padding: 40px 20px 0 20px;
+        width: 100%;
+        min-height: fit-content;
+    }
+
+    .shape h1 {
+        font-size: 2.5rem;
+    }
+
+    .shape p {
+        font-size: 1rem;
+    }
+
+    .shape form {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        padding: 2rem;
+    }
+    
+}
