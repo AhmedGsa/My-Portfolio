@@ -13,7 +13,7 @@ export default function Hero() {
             <p>
                 I'm a full-stack developer with a passion for creating beautiful and functional web and mobile applications.
             </p>
-            <Button href="#about">My Projects <FaArrowRight /></Button>
+            <Button href="#projects">My Projects <FaArrowRight /></Button>
         </div>
           <Image className={classes.asset} src="/images/yellow-circle.png" alt="Hero Image" width={500} height={500} />
     </section>

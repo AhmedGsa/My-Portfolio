@@ -18,16 +18,16 @@ export default function AboutMe() {
             <div className={classes.buttons}>
                 <Button href='/cv'>Download CV</Button>
                 <div className={classes['social-buttons']}>
-                    <Link href='https://www.facebook.com'>
+                    <Link href='https://www.facebook.com/ahmed.gouasmia.37/'>
                         <FaFacebookF className={classes['social-icon']} />
                     </Link>
-                    <Link href='https://www.instagram.com'>
+                    <Link href='https://www.instagram.com/ahmedgsa/'>
                         <FaInstagramSquare className={classes['social-icon']} />
                     </Link>
-                    <Link href='https://www.linkedin.com'>
+                    <Link href='https://www.linkedin.com/in/ahmed-gouasmia-59baa1245/'>
                         <FaLinkedinIn  className={classes['social-icon']} />
                     </Link>
-                    <Link href='https://www.github.com'>
+                    <Link href='https://github.com/AhmedGsa'>
                         <FaGithub className={classes['social-icon']} />
                     </Link>
                 </div>

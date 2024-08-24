@@ -9,16 +9,16 @@ export default function Footer() {
         <h2>Portfolio</h2>
         <p>© 2024 Ahmed Gouasmia. All rights reserved.</p>
         <div className={classes['social-links']}>
-            <Link href='https://www.facebook.com'>
+            <Link href='https://www.facebook.com/ahmed.gouasmia.37/'>
                 <FaFacebookF className={classes['social-icon']} />
             </Link>
-            <Link href='https://www.instagram.com'>
+            <Link href='https://www.instagram.com/ahmedgsa/'>
                 <FaInstagram className={classes['social-icon']} />
             </Link>
-            <Link href='https://www.linkedin.com'>
+            <Link href='https://www.linkedin.com/in/ahmed-gouasmia-59baa1245/'>
                 <GrLinkedinOption  className={classes['social-icon']} />
             </Link>
-            <Link href='https://www.github.com'>
+            <Link href='https://github.com/AhmedGsa'>
                 <FaGithub className={classes['social-icon']} />
             </Link>
         </div>
