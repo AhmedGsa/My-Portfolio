@@ -74,3 +74,30 @@
     color: var(--gray-color);
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 4rem 50px;
+    }
+    
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container .icon {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .degree {
+        text-align: center;
+    }
+
+    .degree h1 {
+        font-size: 1.5rem;
+    }
+
+    .degree h2 {
+        font-size: 1.2rem;
+    }
+}
