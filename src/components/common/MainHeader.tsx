@@ -18,8 +18,8 @@ export default function MainHeader() {
                 <NavLink onClick={handleClick} href='/#hero'>Home</NavLink>
                 <NavLink onClick={handleClick} href='/#services'>Services</NavLink>
                 <NavLink onClick={handleClick} href='/#about-me'>About Me</NavLink>
+                <NavLink onClick={handleClick} href='/#experience'>Experience</NavLink>
                 <NavLink onClick={handleClick} href='/#projects'>Projects</NavLink>
-                <NavLink onClick={handleClick} href='/#contact'>Contact</NavLink>
                 <Button onClick={handleClick} href='#contact'>Hire Me!</Button>
             </ul>
         </nav>

@@ -31,3 +31,12 @@
     fill: var(--white-color);
     transition: 0.4s;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 2rem 20px;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+}
