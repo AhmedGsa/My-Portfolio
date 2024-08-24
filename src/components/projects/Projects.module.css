@@ -84,3 +84,36 @@
     transform: scale(1.1);
     transition: var(--transition);
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 4rem 20px;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
+    }
+
+    .project .info {
+        padding: 1rem;
+    }
+
+    .project .info .info-text {
+        gap: 0.5rem;
+    }
+
+    .project .info .btn {
+        padding: 0.5rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+}
