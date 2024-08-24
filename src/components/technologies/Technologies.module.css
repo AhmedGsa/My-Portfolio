@@ -43,4 +43,24 @@
 .technology img {
     width: 50px;
     height: 50px;
-}   
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 4rem 50px;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+
+    .technologies {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+}
