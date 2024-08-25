@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Khedamni",
+        "description": "Khedamni is a mobile application that connects artisans and clients. It allows artisans to create a profile and show their work to clients. Clients can search for artisans and contact them.",
+        "image": "/images/khedamni1.jpeg",
+        "url": "https://play.google.com/store/apps/details?id=dz.createch.khedamni"
+    },
+    {
+        "id": 2,
+        "name": "Darckoum",
+        "description": "Darckoum is a realesate mobile application that allows users to search for real estate properties and contact the owners. It also allows users to post their properties for sale or rent.",
+        "image": "/images/darckoum.jpeg",
+        "url": "https://play.google.com/store/apps/details?id=com.dzcreatech.darckoum"
+    },
+    {
+        "id": 3,
+        "name": "Gamecode",
+        "description": "Gamecode is a website that sells online football coaching courses. It allows users to buy courses and complete them to get certificates.",
+        "image": "/images/gamecode.png",
+        "url": ""
+    },
+    {
+        "id": 4,
+        "name": "Datum",
+        "description": "Datum is a web application that allows users to search for data to buy. It also allows users to post their data for sale. It was our solution for the MicroHack 2023 Hackathon that won us the first place.",
+        "image": "/images/datum.jpg",
+        "url": "https://github.com/AhmedGsa/Datum-MicroHack"
+    },
+    {
+        "id": 5,
+        "name": "MyURLShortener",
+        "description": "MyURLShortener is a web application that allows users to shorten URLs. It also generates QR codes for the shortened URLs.",
+        "image": "https://i.ibb.co/mqT9F4J/Screenshot-41.png",
+        "url": "https://github.com/AhmedGsa/MyURLShortener"
+    },
+    {
+        "id": 6,
+        "name": "Upload It!",
+        "description": "Upload It is a web application that allows users to upload files and share them with others. It also allows users to protect their files with passwords.",
+        "image": "/images/upload-it.jpg",
+        "url": "https://github.com/AhmedGsa/FileSharingWebsite"
+    },
+    {
+        "id": 7,
+        "name": "MeetNow!",
+        "description": "MeetNow is a web application that allows users to create meetings and invite others. It also allows users to join meetings by entering the meeting code.",
+        "image": "/images/meetnow.png",
+        "url": "https://github.com/AhmedGsa/Realtime-Video-Chat-Web-App"
+    },
+    {
+        "id": 8,
+        "name": "Instagram Web Scraper",
+        "description": "Instagram Web Scraper is a web scraper that scrapes Instagram posts, followers, and following count. It also allows users to scrap all the followers of a specific account.",
+        "image": "/images/Instagram.png",
+        "url": "https://github.com/AhmedGsa/Instagram-Web-Scraper"
+    },
+    {
+        "id": 9,
+        "name": "DZ Mouhami",
+        "description": "DZ Mouhami is a web application that i developed as my Software Engineering class project. It allows users to search for the best lawyers in Algeria. It also allows users to contact the lawyers and book appointments.",
+        "image": "/images/dz-mohami.jpg",
+        "url": "https://github.com/AhmedGsa/GL-Project"
+    },
+    {
+        "id": 10,
+        "name": "Rival School Website",
+        "description": "This is a website for rival school. It allows users to see the school's information and register in its courses. All registrations are linked directly to the school's admin desktop application. This website was developed as my 2nd year multidisciplinary project.",
+        "image": "/images/rival-school.webp",
+        "url": "https://github.com/1FarZ1/Project-2cp"
+    }
+]

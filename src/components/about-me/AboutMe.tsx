@@ -16,7 +16,7 @@ export default function AboutMe() {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ex eveniet, consequuntur quasi nesciunt aliquid libero aperiam. Vitae, ut suscipit placeat omnis voluptatem sit provident voluptate minus, error minima impedit?</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nisi alias saepe, ea vel rerum sequi accusamus veniam similique reiciendis illo aperiam minus illum atque consectetur quasi numquam eligendi placeat.</p>
             <div className={classes.buttons}>
-                <Button href='/cv'>Download CV</Button>
+                <Button href='/CV.pdf'>Download CV</Button>
                 <div className={classes['social-buttons']}>
                     <Link href='https://www.facebook.com/ahmed.gouasmia.37/'>
                         <FaFacebookF className={classes['social-icon']} />

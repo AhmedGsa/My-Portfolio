@@ -1,5 +1,6 @@
 import Project from './Project';
 import classes from './Projects.module.css';
+import data from './data.json';
 
 export default function Projects() {
     return <section id="projects" className={classes.container}>
@@ -7,9 +8,9 @@ export default function Projects() {
         <p>Here are some of the projects I have worked on.</p>
         
         <div className={classes.projects}>
-            <Project href='https://www.khedamni.com' title='Khedamni' description='description' image='/images/khedamni1.jpeg' />
-            <Project href='https://www.khedamni.com' title='Khedamni' description='description' image='/images/khedamni.jpeg' />
-            <Project href='https://www.khedamni.com' title='Darckoum' description='description' image='/images/darckoum.jpeg' />
+            {data.map((project) => {
+                return <Project key={project.id} href={project.url} image={project.image} title={project.name} description={project.description} />
+            })}
         </div>
         
     </section>

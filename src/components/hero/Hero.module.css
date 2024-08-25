@@ -18,6 +18,10 @@
     color: var(--secondary-text-color);
 }
 
+.asset {
+    scale: 0.85;
+}
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -33,7 +37,7 @@
 
     .asset {
         width: fit-content;
-        scale: 0.8;
+        scale: 0.7;
     }
     
 }
