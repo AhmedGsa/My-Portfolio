@@ -13,8 +13,12 @@ export default function AboutMe() {
         <div className={classes.content}>
             <h2>About Me</h2>
             <h1>Why should you choose me?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ex eveniet, consequuntur quasi nesciunt aliquid libero aperiam. Vitae, ut suscipit placeat omnis voluptatem sit provident voluptate minus, error minima impedit?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nisi alias saepe, ea vel rerum sequi accusamus veniam similique reiciendis illo aperiam minus illum atque consectetur quasi numquam eligendi placeat.</p>
+            <p>
+                I'm a full-stack developer with a passion for creating beautiful and functional websites. I have experience in both front-end and back-end development, and I'm always looking for new challenges to tackle. Whether you need a simple landing page or a complex web application, I can help you bring your vision to life.
+            </p>
+            <p>
+                I'm proficient in a variety of programming languages and technologies including HTML, CSS, JavaScript, React, Node.js, and MongoDB. I'm also familiar with version control systems like Git and have experience working with APIs and third-party libraries. I'm a quick learner and a problem solver, and I'm always eager to learn new things and improve my skills.
+            </p>
             <div className={classes.buttons}>
                 <Button href='/CV.pdf'>Download CV</Button>
                 <div className={classes['social-buttons']}>
