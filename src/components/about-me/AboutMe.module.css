@@ -30,6 +30,10 @@
     line-height: 1.5;
 }
 
+.asset {
+    scale: 0.9;
+}
+
 .buttons {
     display: flex;
     align-items: center;
@@ -63,7 +67,7 @@
     }
 
     .asset {
-        display: none;
+        scale: 0.7;
     }
 
     .buttons {

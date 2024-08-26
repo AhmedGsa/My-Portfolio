@@ -6,7 +6,6 @@ import { GrLinkedinOption } from 'react-icons/gr';
 
 export default function Footer() {
     return <footer className={classes.footer}>
-        <h2>Portfolio</h2>
         <p>© 2024 Ahmed Gouasmia. All rights reserved.</p>
         <div className={classes['social-links']}>
             <Link href='https://www.facebook.com/ahmed.gouasmia.37/'>

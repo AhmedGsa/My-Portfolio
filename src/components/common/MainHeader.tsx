@@ -11,7 +11,7 @@ export default function MainHeader() {
         setIsActive(!isActive);
     }
     return <header className={classes.header}>
-        <div className={classes.logo}>Portfolio</div>
+        <div className={classes.logo}>{`<Ahmed Gouasmia />`}</div>
         <nav className={classes.nav}>
             <BurgerMenu isActive={isActive} handleClick={handleClick} />
             <ul className={isActive ? classes.active : undefined}>
