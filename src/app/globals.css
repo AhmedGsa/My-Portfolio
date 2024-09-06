@@ -35,7 +35,7 @@ body {
 }
 
 section {
-  padding: 0 200px;
+  padding: 4rem 10%;
 }
 
 main {
@@ -49,6 +49,7 @@ a {
 
 .nav-link {
   transition: var(--transition);
+  text-wrap: nowrap;
 }
 
 .nav-link:hover {
@@ -66,11 +67,61 @@ a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  text-wrap: nowrap;
 }
 
 .cta:hover {
   background-color: var(--button-hover-color);
   transition: var(--transition);
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  section {
+    padding: 0 5%;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .cta {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  section {
+    padding: 0 2%;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .cta {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 20px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .asset {
+    width: fit-content;
+    scale: 0.7;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

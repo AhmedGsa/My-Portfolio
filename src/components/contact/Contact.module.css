@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 4rem 100px;
+    padding: 4rem 10%;
     background-color: var(--secondary-color);
 }
 
@@ -87,6 +87,69 @@
 
 .shape form button:hover {
     background-color: var(--button-hover-color);
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        padding: 4rem 5%;
+    }
+
+    .shape .overlay {
+        padding-left: 185px;
+    }
+    
+    .shape form {
+        position: absolute;
+        right: 170px;
+        top: -50px;
+        width: 35%;
+        padding: 2rem;
+    }
+
+    .shape h1 {
+        font-size: 3rem;
+    }
+
+    .shape p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        padding: 4rem 2%;
+    }
+
+    .shape {
+        background-color: var(--primary-color);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .shape .overlay {
+        padding: 40px 20px 0 20px;
+        width: 100%;
+        min-height: fit-content;
+    }
+
+    .shape h1 {
+        font-size: 2.5rem;
+    }
+
+    .shape p {
+        font-size: 1.2rem;
+    }
+
+    .shape form {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        padding: 2rem;
+    }
 }
 
 @media screen and (max-width: 768px) {

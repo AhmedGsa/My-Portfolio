@@ -2,7 +2,7 @@
     display: flex;
     gap: 2rem;
     align-items: center;
-    padding: 4rem 200px;
+    padding: 4rem 10%;
 }
 
 .content {
@@ -54,6 +54,39 @@
 .social-icon:hover {
     fill: var(--primary-color);
     transition: 0.4s;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        padding: 4rem 5%;
+    }
+
+    .asset {
+        scale: 0.8;
+    }
+
+    .buttons {
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        padding: 4rem 2%;
+    }
+
+    .content {
+        width: 60%;
+    }
+
+    .asset {
+        scale: 0.65;
+        width: 50%;
+    }
+
+    .buttons {
+        gap: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 768px) {

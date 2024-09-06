@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 4rem 200px;
+    padding: 4rem 10%;
 }
 
 .container h1 {
@@ -88,6 +88,70 @@
 .project:hover .image img {
     transform: scale(1.1);
     transition: var(--transition);
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        padding: 4rem 5%;
+    }
+
+    .container h1 {
+        font-size: 2.2rem;
+    }
+
+    .container p {
+        font-size: 1.1rem;
+    }
+
+    .project .info {
+        padding: 1.5rem;
+    }
+
+    .project .info .info-text {
+        gap: 0.5rem;
+    }
+
+    .project .info .btn {
+        padding: 0.7rem;
+        min-width: 3.5rem;
+        min-height: 3.5rem;
+    }
+
+    .project .image img {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        padding: 4rem 2%;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 1.1rem;
+    }
+
+    .project .info {
+        padding: 1.5rem;
+    }
+
+    .project .info .info-text {
+        gap: 0.5rem;
+    }
+
+    .project .info .btn {
+        padding: 0.7rem;
+        min-width: 3.5rem;
+        min-height: 3.5rem;
+    }
+
+    .project .image img {
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 768px) {

@@ -22,6 +22,34 @@
     scale: 0.85;
 }
 
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        padding: 0 5%;
+    }
+
+    .content {
+        width: 50%;
+    }
+
+    .asset {
+        scale: 0.8;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        padding: 0 2%;
+    }
+
+    .content {
+        width: 50%;
+    }
+
+    .asset {
+        scale: 0.8;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
