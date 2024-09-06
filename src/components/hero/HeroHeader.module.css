@@ -11,7 +11,6 @@
     padding: 0.5rem;
     background-color: var(--primary-color);
     border-radius: 3rem;
-    display: flex;
 }
 
 .service-text-content {
@@ -20,18 +19,21 @@
 }
 
 .service-text-slide {
-    padding-left: 20%;
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     align-items: center;
+    animation: scrollText 10s linear infinite;
+}
+
+.service-text-slide h2 {
+    display: inline;
 }
 
 @keyframes scrollText {
     from {
-        transform: translateX(0);
+        transform: translateX(50%);
     }
     to {
-        transform: translateX(-70%);
+        transform: translateX(-100%);
     }
 }
 
