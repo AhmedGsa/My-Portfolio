@@ -8,7 +8,7 @@ export default function HeroHeader() {
             <div className={classes['service-text-slide']}>
                 <h2>Fullstack Developer</h2>
                 <Image src="/images/north-star.png" alt="North Star Image" width='50' height='50' />
-                <h2>Artificial Intelligence and Data Science Student</h2>
+                <h2>Artificial Intelligence and Data Science Engineer</h2>
             </div>
         </div>
     </header>

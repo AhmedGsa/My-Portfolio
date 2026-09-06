@@ -12,7 +12,7 @@ export default function Education() {
         <div className={classes.degrees}>
             <Degree period="2019 - 2021" title="Baccalaureate Degree in Experimental Sciences" institute="Hrirech Mohammed Ben Aissa High School - Souk Ahras" details="Grade 16.66 / 20" />
             <hr />
-            <Degree period="2021 - Present" title="State Engineer degree in Computer Science" institute="Higher School of Computer Science and Technologie ESTIN Bejaia" details="Specialized in Data Science and Artificial Intelligence" />
+            <Degree period="2021 - 2026" title="State Engineer degree in Computer Science" institute="Higher School of Computer Science and Technologie ESTIN Bejaia" details="Specialized in Data Science and Artificial Intelligence" />
         </div>
     </section>
 }
